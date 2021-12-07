@@ -129,7 +129,7 @@ def hello_name9889():
   form = water.occurences
   molar = water.molar_mass()
   val = str(molar)
-  response = ('{"formula" : ' + form + ", Molar :" + val + "}" )
+  response = ('{"formula" : ' + form + ", Molar :" + str.format(val) + "}" )
   
  
 
